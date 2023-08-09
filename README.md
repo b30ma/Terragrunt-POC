@@ -5,6 +5,19 @@ Terragrunt can manage multiple Terraform deployments more efficiently. It helps 
 Suppose you have a project with two different environments: "dev" and "prod". Each environment has its own set of resources defined by Terraform modules. We'll set up a directory structure and show how you can use Terragrunt to manage these environments.
 
 
+## Assuming the following directory structure:
+
+$ cd project-root/terragrunt.hcl
+
+$ cd project-root/environments/dev/terragrunt.hcl/main.tf
+
+$ cd project-root/environments/prod/terragrunt.hcl/main.tf
+
+$ cd project-root/modules/module1/main.tf
+
+$ cd project-root/modules/module2/main.tf
+
+
 ## All steps of structure of files:
 
 1- Define Module Configuration:
